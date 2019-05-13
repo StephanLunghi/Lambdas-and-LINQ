@@ -70,7 +70,7 @@ namespace Lambdas_and_LINQ
 
             // NUMBER 3
 
-            var number3 = numList.Aggregate((previous,next) => sum(previous,next));
+            var number3 = numList.Aggregate((pacman,powerPellet) => sum(pacman,powerPellet));
 
             Console.WriteLine(number3);
 
